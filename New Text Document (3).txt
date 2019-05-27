@@ -1,0 +1,48 @@
+jquery
+
+
+$(document).ready(function(){
+
+$("#id",".class","component").click(function(){
+
+
+$("#id",".class","component").function();
+
+});
+});
+
+fucntions{
+hide():for hide a component->$("p").hide();
+
+show():for show a component->$("p").show();
+
+slideDown():for show a slide->$("div").slideDown();
+
+slideUp():for hide  a slide->$("div).slideUp();
+
+slideToggle():slide down and slide up together->$("div").slideToggle();
+
+fadeToggle():fade a component->$("#id").fadeToggle();
+
+append():add a Item->$("ol").append("<li>new item</li>");->add a item to end of a list
+
+prepend():add a item to first ->$("ol").prepend("<li>new item </li>");
+
+after():add a item after a thing->$("p").after(item)->add a item after every paragraph
+
+before():add a item before a thing->$("p").before(item)->add a item before every paragraph
+
+remove():remove any thing->$("ol").remove()->remove every ordered list
+
+empty():remove all of things in another things->$("ol").empty():removed items in ordered list
+
+first(): first of a thing
+
+last(): last of a thing
+
+no(): not this thing
+
+filter():this thing
+
+chain->append().show().hide()
+}
